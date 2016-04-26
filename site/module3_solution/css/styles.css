@@ -1,0 +1,120 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+ /* background-color: light blue;*/
+  border-radius: 0;
+  border: 0;
+  height: 80px;
+  padding-top: 10px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1{ /* Restaurant name */
+  font-family: 'Arial', sans serif;
+  
+  font-size: 1.5em;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  line-height: .75;
+  color: purple;
+}
+
+.navbar-header a:hover, .navbar-header a:focus {
+  text-decoration: none;
+}
+
+#nav-list  {
+  padding-top: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  
+}
+#nav-list a {
+  
+  color: #951C49;
+ 
+  border: 1px solid #61122f;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  
+}
+
+.navbar-header button.navbar-toggle {
+  border: 1px solid #61122f;
+}
+ .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+ /* clear: both;*/
+ /* margin-top: -30px;*/
+ padding-bottom: -10px;
+
+}
+
+#menu-description{
+  background-color: pink;
+}
+
+#menu-description p{
+  margin: 15px 30px 0px 30px;
+}
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+
+  #myNavbar a { /* Collapsed nav menu text */
+    font-size: .8em;
+  }
+ 
+
+  #main-content{
+    padding-top: 90px;
+  }
+  
+  /* End Header */
+
+}
+
