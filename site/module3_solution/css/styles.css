@@ -14,7 +14,9 @@ body {
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  /*padding-top: 25px;*/
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .navbar-brand h1{ /* Restaurant name */
@@ -29,6 +31,8 @@ body {
   
   line-height: .75;
   color: purple;
+
+  
 }
 
 .navbar-header a:hover, .navbar-header a:focus {
@@ -36,9 +40,8 @@ body {
 }
 
 #nav-list  {
-  padding-top: 10px;
-  margin-top: 10px;
- /* text-align: center;*/
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 1.5em;
   
 }
@@ -70,10 +73,15 @@ body {
 
 #menu-description{
   background-color: pink;
+  text-align: justify;
 }
 
 #menu-description p{
   margin: 20px 30px 20px 30px;
+}
+
+#main-content{
+  margin: auto;
 }
 /* END HEADER */
 
@@ -96,12 +104,13 @@ body {
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
-  /*  padding-top: 10px;
-    height: 60px;*/
+  /*  padding-top: 10px;*/
+    height: 60px;
   }
   .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    /*padding-top: 2vw;*/
+    padding-bottom: 2vw;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
   }
 
 
